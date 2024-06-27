@@ -6,7 +6,7 @@ function SuccessPage() {
   return (
     <section className="w-full h-screen overflow-hidden flex justify-center items-center">
       <div className="relative border border-slate-300 bg-gray-200 flex flex-col gap-5 items-center w-[30vw] h-[60vh] shadow-lg rounded-md justify-center overflow-hidden">
-        <div className="w-20 h-20 flex justify-center items-center bg-white rounded-full">
+        <div className="w-20 h-20 flex justify-center items-center bg-white rounded-full border border-green-500">
           <Icons.check className="w-10 h-10 text-green-600" strokeWidth={4} />
         </div>
         <p className="italic font-medium">Proposal sent successfully!</p>

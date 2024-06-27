@@ -5,9 +5,10 @@ import React from "react";
 import { contactFormData } from "./utils/data";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { ContactInputs } from "./utils/types";
+import { useRouter } from "next/navigation";
 
 function Contact() {
-  // const router = useRouter();
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -16,9 +17,9 @@ function Contact() {
 
   const onSubmit: SubmitHandler<ContactInputs> = (data) => {
     console.log(data);
-    // if (router) {
-    //   router.push("/success-page");
-    // }
+    if (router) {
+      router.push("/success-page");
+    }
   };
   return (
     <section className="flex justify-around gap-6 lg:gap-20 px-10 py-16 lg:px-20 lg:py-24 w-full">
