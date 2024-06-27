@@ -1,10 +1,11 @@
 import Header from "@/components/landing-page/Header";
-import NavButton from "@/components/landing-page/molecules/NavButton";
+import Hero from "@/components/landing-page/Hero";
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="flex justify-center py-6 text-sm lg:text-base">
+    <main className="pt-20">
       <Header />
-    </div>
+      <Hero />
+    </main>
   );
 }

@@ -6,10 +6,10 @@ import Logo from "./molecules/Logo";
 
 function Header() {
   return (
-    <header className="w-full fixed inset-x-0 top-0 flex justify-around text-xs md:text-sm lg:text-base px-2 md:px-0 py-4 bg-[#F5F4F6]">
+    <header className="w-full fixed inset-x-0 top-0 flex justify-around text-xs md:text-sm lg:text-base px-2 md:px-0 py-5 bg-[#F5F4F6]">
       <Logo />
       <nav className="self-center hidden md:block">
-        <ul className="flex gap-5">
+        <ul className="flex gap-7">
           {navData.map((nav, index) => {
             return (
               <li key={index}>
