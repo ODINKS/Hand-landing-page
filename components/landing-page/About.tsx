@@ -19,7 +19,7 @@ function About() {
         alt="Orange fruit background"
         width={1000}
         height={1000}
-        className="w-full h-screen"
+        className="w-full lg:h-screen"
       />
     </section>
   );

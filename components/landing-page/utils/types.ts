@@ -1,3 +1,5 @@
+import { ReactEventHandler } from "react";
+
 export interface NavButtonProps {
   content?: string;
   className?: string;
@@ -21,3 +23,7 @@ export type ContactInputs = {
   website: string;
   projectDetails: string;
 };
+
+export interface HeaderProps{
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}

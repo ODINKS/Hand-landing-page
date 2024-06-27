@@ -4,6 +4,7 @@ import {
   Facebook,
   Instagram,
   Linkedin,
+  Menu,
   X,
   type LucideIcon,
 } from "lucide-react";
@@ -17,4 +18,6 @@ export const Icons = {
   instagram: Instagram,
   arrowLeft: ArrowLeft,
   check: Check,
+  menu: Menu,
+  cancel: X,
 };
