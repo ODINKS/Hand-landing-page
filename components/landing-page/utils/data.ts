@@ -1,7 +1,8 @@
+
 export const navData = [
   {
     name: "Home",
-    href: "",
+    href: "/",
   },
   {
     name: "About Us",
@@ -42,19 +43,19 @@ export const statData = [
 
 export const imageData = [
   {
-    src: "vercel.svg",
+    src: "member_1.svg",
     alt: "member one",
     fullName: "Esther Howard",
     role: "Founder",
   },
   {
-    src: "next.svg",
+    src: "member_2.svg",
     alt: "member_two",
     fullName: "Cody Fisher",
     role: "Developer",
   },
   {
-    src: "vercel.svg",
+    src: "member_3.svg",
     alt: "member_three",
     fullName: "Brooklyn Simmons",
     role: "Designer",

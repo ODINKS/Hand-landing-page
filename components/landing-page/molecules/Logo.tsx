@@ -3,7 +3,7 @@ import { LogoProps } from "../utils/types";
 
 function Logo({ className }: LogoProps) {
   return (
-    <span className={`font-semibold text self-center ${className}`}>Hand</span>
+    <span className={`font-semibold text ${className}`}>Hand</span>
   );
 }
 

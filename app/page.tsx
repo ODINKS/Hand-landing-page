@@ -1,5 +1,6 @@
 import About from "@/components/landing-page/About";
 import Contact from "@/components/landing-page/Contact";
+import Footer from "@/components/landing-page/Footer";
 import Header from "@/components/landing-page/Header";
 import Hero from "@/components/landing-page/Hero";
 import Stat from "@/components/landing-page/Stat";
@@ -14,6 +15,7 @@ export default function LandingPage() {
       <Team />
       <Stat />
       <Contact />
+      <Footer />
     </main>
   );
 }

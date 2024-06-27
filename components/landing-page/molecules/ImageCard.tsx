@@ -4,7 +4,7 @@ import { ImageCardProps } from "../utils/types";
 
 function ImageCard({ src, alt, className, fullName, role }: ImageCardProps) {
   return (
-    <div className="px-5 py-4 flex flex-col gap-6 rounded-lg shadow-lg shadow-slate-300 pb-7">
+    <div className="px-5 py-4 flex flex-col gap-6 rounded-lg shadow-lg shadow-slate-300 pb-7 border border-gray-100">
       <Image
         src={src}
         alt={alt}
