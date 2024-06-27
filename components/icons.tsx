@@ -1,4 +1,6 @@
 import {
+  ArrowLeft,
+  Check,
   Facebook,
   Instagram,
   Linkedin,
@@ -13,4 +15,6 @@ export const Icons = {
   linkedIn: Linkedin,
   facebook: Facebook,
   instagram: Instagram,
+  arrowLeft: ArrowLeft,
+  check: Check,
 };
