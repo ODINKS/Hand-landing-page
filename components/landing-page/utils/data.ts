@@ -63,7 +63,7 @@ export const imageData = [
 
 export const contactFormData = [
   {
-    name: "name",
+    name: "fullName",
     type: "text",
     placeholder: "Name*",
   },
@@ -79,7 +79,7 @@ export const contactFormData = [
   },
   {
     name: "projectDetails",
-    type: "text",
+    type: "textArea",
     placeholder: "Project Details*",
   },
-];
+] as const;

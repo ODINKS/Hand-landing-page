@@ -10,7 +10,7 @@ function ImageCard({ src, alt, className, fullName, role }: ImageCardProps) {
         alt={alt}
         width={400}
         height={400}
-        className={`${className}`}
+        className={`bg-cover ${className}`}
       />
       <div className="flex flex-col gap-1">
         <p className="font-bold text-lg">{fullName}</p>

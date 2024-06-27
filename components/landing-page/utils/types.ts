@@ -14,3 +14,10 @@ export interface ImageCardProps {
 export interface LogoProps {
   className?: string;
 }
+
+export type ContactInputs = {
+  fullName: string;
+  email: string;
+  website: string;
+  projectDetails: string;
+};
