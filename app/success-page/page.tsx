@@ -11,7 +11,7 @@ function SuccessPage() {
         </div>
         <p className="italic font-medium">Proposal sent successfully!</p>
         <Link href={"/"} className="flex gap-3">
-          <Icons.arrowLeft /> <span>Go back</span>
+          <Icons.arrowLeft /> <span>Go back home</span>
         </Link>
         <div className="w-32 h-32 absolute -top-4 -left-4 rounded bg-yellow-500 rounded-br-full"></div>
         <div className="w-32 h-32 absolute -bottom-4 -right-4 rounded bg-black rounded-tl-full"></div>
