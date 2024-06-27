@@ -4,17 +4,17 @@ import { ImageCardProps } from "../utils/types";
 
 function ImageCard({ src, alt, className, fullName, role }: ImageCardProps) {
   return (
-    <div>
+    <div className="px-5 py-4 flex flex-col gap-6 rounded-lg shadow-lg shadow-slate-300 pb-7">
       <Image
         src={src}
         alt={alt}
-        width={50}
-        height={50}
+        width={400}
+        height={400}
         className={`${className}`}
       />
-      <div>
-        <p>{fullName}</p>
-        <p>{role}</p>
+      <div className="flex flex-col gap-1">
+        <p className="font-bold text-lg">{fullName}</p>
+        <p className="text-gray-500 text-sm font-medium">{role}</p>
       </div>
     </div>
   );

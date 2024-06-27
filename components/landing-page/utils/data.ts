@@ -41,9 +41,24 @@ export const statData = [
 ];
 
 export const imageData = [
-  { src: "", alt: "member one" },
-  { src: "", alt: "member_two" },
-  { src: "", alt: "member_three" },
+  {
+    src: "vercel.svg",
+    alt: "member one",
+    fullName: "Esther Howard",
+    role: "Founder",
+  },
+  {
+    src: "next.svg",
+    alt: "member_two",
+    fullName: "Cody Fisher",
+    role: "Developer",
+  },
+  {
+    src: "vercel.svg",
+    alt: "member_three",
+    fullName: "Brooklyn Simmons",
+    role: "Designer",
+  },
 ];
 
 export const contactFormData = [

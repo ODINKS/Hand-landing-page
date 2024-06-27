@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="flex flex-col gap-6 lg:gap-20 px-10 py-16 lg:px-20 lg:py-24">
       <div className="flex flex-col gap-6 lg:gap-8 border border-black">
-        <h1 className="text-5xl font-bold">Who we are</h1>
+        <h1 className="text-3xl lg:text-5xl lg:font-bold">Who we are</h1>
         <p className="text-xl">
           We love what we do and create partnerships with our clients to ensure
           their digital transformation is positioned for long-term success.We
