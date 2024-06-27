@@ -9,8 +9,8 @@ import { HeaderProps } from "./utils/types";
 function Header({ onClick }: HeaderProps) {
   return (
     <header className="fixed inset-x-0 top-0 z-10 flex justify-around text-xs md:text-sm lg:text-base px-2 md:px-0 py-5 bg-[#F5F4F6] overflow-hidden ">
-      <div className="self-center flex gap-20 md:hidden">
-        <button className="w-fit h-fit" onClick={onClick}>
+      <div className="self-center flex gap-20">
+        <button className="w-fit h-fit md:hidden" onClick={onClick}>
           <Icons.menu />
         </button>
         <Logo className="self-center" />
@@ -20,7 +20,7 @@ function Header({ onClick }: HeaderProps) {
           {navData.map((nav, index) => {
             return (
               <li key={index}>
-                <Link href={nav.href}>{nav.name}</Link>
+                <Link href={nav.href} className="font-medium">{nav.name}</Link>
               </li>
             );
           })}
