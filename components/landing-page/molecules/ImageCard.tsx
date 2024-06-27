@@ -1,9 +1,23 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import { ImageCardProps } from "../utils/types";
 
-function ImageCard() {
+function ImageCard({ src, alt, className, fullName, role }: ImageCardProps) {
   return (
-    <div>ImageCard</div>
-  )
+    <div>
+      <Image
+        src={src}
+        alt={alt}
+        width={50}
+        height={50}
+        className={`${className}`}
+      />
+      <div>
+        <p>{fullName}</p>
+        <p>{role}</p>
+      </div>
+    </div>
+  );
 }
 
-export default ImageCard
+export default ImageCard;

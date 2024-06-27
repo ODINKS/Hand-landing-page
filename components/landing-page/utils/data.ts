@@ -1,6 +1,27 @@
-const navData = ["Home", "About Us", "Services", "Blog", "Contact Us"];
+export const navData = [
+  {
+    name: "Home",
+    href: "",
+  },
+  {
+    name: "About Us",
+    href: "",
+  },
+  {
+    name: "Services",
+    href: "",
+  },
+  {
+    name: "Blog",
+    href: "",
+  },
+  {
+    name: "Contact Us",
+    href: "",
+  },
+];
 
-const statData = [
+export const statData = [
   {
     stat: "350 +",
     desc: "Clients Worldwide",
@@ -19,13 +40,13 @@ const statData = [
   },
 ];
 
-const imageData = [
-    { src: "", alt: "member one" },
-    { src: "", alt: "member_two" },
-    { src: "", alt: "member_three" },
+export const imageData = [
+  { src: "", alt: "member one" },
+  { src: "", alt: "member_two" },
+  { src: "", alt: "member_three" },
 ];
 
-const contactFormData = [
+export const contactFormData = [
   {
     name: "name",
     type: "text",
